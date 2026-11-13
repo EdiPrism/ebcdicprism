@@ -1,0 +1,46 @@
+name: Bug Report
+description: Report a copybook parsing, EBCDIC decoding, S0C7 validation, or UI issue
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > **PCI-DSS / PII / NDA Safety Warning:** **NEVER** paste or upload live production cardholder PANs, SSNs, customer PII, or proprietary production dumps into public GitHub issues. Use synthetic copybook snippets or run `Alt+Shift+R` (**PCI-Scrub Binary Fixture**) first.
+  - type: dropdown
+    id: ide
+    attributes:
+      label: JetBrains IDE
+      options:
+        - IntelliJ IDEA (Unified / Community / Ultimate)
+        - DataGrip
+        - PyCharm
+        - Rider
+        - GoLand
+        - WebStorm
+        - Other JetBrains IDE
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: IDE Version & EbcdicPrism Version
+      placeholder: "e.g., DataGrip 2025.3.2 • EbcdicPrism v1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Steps to Reproduce & Synthetic Sample (.cpy / Hex)
+      description: Provide a minimal synthetic COBOL PIC snippet or hex byte sequence that reproduces the issue.
+      placeholder: |
+        01 TEST-REC.
+           05 AMT-VAL PIC S9(7)V99 COMP-3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs. Actual Behavior
+    validations:
+      required: true

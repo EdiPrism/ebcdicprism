@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: EbcdicPrism COBOL & EBCDIC Reference Portal
+    url: https://ediprism.github.io/cobol/
+    about: Browse COMP-3 byte formulas, S0C7 diagnostics, IBM037/IBM1047 overpunch tables, and keyboard shortcuts.
+  - name: EdiPrism Enterprise Support & Licensing Hub
+    url: https://ediprism.github.io/support.html
+    about: Licensing, JetBrains Marketplace Organization seats, corporate POs, and air-gapped compliance inquiries.
