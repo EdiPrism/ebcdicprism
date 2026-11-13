@@ -2,6 +2,11 @@
 
 All notable changes to **EbcdicPrism Copybook Viewer** (`dev.ediprism.ebcdic`) are documented in this file.
 
+## [1.0.1] - 2026-11-13
+
+### Added
+- **Air-Gap-Safe Feedback Menu & Sanitized Crash Diagnostics (`?` ToolWindow Header & `IDE Fatal Errors`):** Added a zero-socket `?` Feedback & Support menu on the `EbcdicPrism` ToolWindow header bar (`Report Bug`, `Suggest Feature`, and `Copy Air-Gapped Diagnostic Template` for restricted banking VDIs) plus a native IntelliJ `<errorHandler>` that strips local file paths and redacts raw exception messages so PCI-DSS PANs or copybook lines can never leak.
+
 ## [1.0.0] - 2026-11-13
 
 ### Added
