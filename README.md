@@ -1,8 +1,8 @@
 # EbcdicPrism Copybook Viewer — Offline COBOL Copybook, EBCDIC & COMP-3 Inspector for JetBrains IDEs
 
+[![Marketplace](https://img.shields.io/badge/JetBrains_Marketplace-%2336104_Install-087CFA)](https://plugins.jetbrains.com/plugin/36104-ebcdicprism-copybook-viewer)
 [![Portal](https://img.shields.io/badge/Docs_%26_Reference-ediprism.github.io%2Fcobol-0284c7)](https://ediprism.github.io/cobol/)
 [![Execution](https://img.shields.io/badge/Execution-100%25_Offline_%26_Air--Gapped-10B981)](https://ediprism.github.io/privacy.html)
-[![Platform](https://img.shields.io/badge/JetBrains_IDEs-2025.1%2B_(All_IDEs)-087CFA)](https://ediprism.github.io/cobol/)
 
 **Deterministic, 100% offline / air-gapped mainframe binary data inspector, `COBOL Copybook` (`.cpy`) byte-offset calculator, `EBCDIC` / `COMP-3` / `Zoned Decimal` record overlay decoder, `S0C7` data-exception validator, semantic binary diff, and `PCI-DSS` test-fixture scrubber across all JetBrains IDEs** (`IntelliJ IDEA`, `DataGrip`, `PyCharm`, `Rider`, `GoLand`, `WebStorm`).
 
@@ -17,6 +17,7 @@ Built for core-banking, card-settlement, clearinghouse, insurance, airline, and 
 
 ## Installation
 
+- **JetBrains Marketplace (`#36104`):** **[https://plugins.jetbrains.com/plugin/36104-ebcdicprism-copybook-viewer](https://plugins.jetbrains.com/plugin/36104-ebcdicprism-copybook-viewer)**
 - **Inside Any JetBrains IDE (`2025.1+`):** Open **Settings / Preferences** (`Ctrl+Alt+S` / `Cmd+,`) -> **Plugins** -> **Marketplace** -> search **`EbcdicPrism Copybook Viewer`** -> click **Install** (dynamic plugin — zero IDE restart required).
 - **Documentation & Mainframe Reference Hub:** **[https://ediprism.github.io/cobol/](https://ediprism.github.io/cobol/)**
 
